@@ -1,0 +1,23 @@
+package aplication;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class ListaDois {
+
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		
+		list.add("Otávio");
+		list.add("Vinni");
+		list.add("Ivaní");
+		list.add("Jr.");
+		list.add("Sandro");
+		list.add("Sara");
+		list.add("Eugênio");
+		for(String x : list) {
+			System.out.println(x);
+		}
+		
+	}
+}
